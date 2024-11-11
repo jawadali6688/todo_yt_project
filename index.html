@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.14/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="main.js" defer ></script>
+</head>
+<body>
+    <main class="flex flex-col gap-4 justify-center items-center my-10">
+
+        <div class="forData space-y-4 mx-auto flex flex-col">
+
+            <h1 class="text-2xl font-bold text-center">Todo List App in Javascript</h1>
+
+            <input id="userTask" type="text" placeholder="Enter Your Task"
+            class="input input-bordered input-secondary w-[400px]"
+            >
+
+            <button id="addButton" class="btn btn-primary">Add Todo</button>
+        </div>
+
+
+        <div  id="forTaskData" class=" space-y-4 mx-auto flex flex-col">
+            
+        </div>
+
+    </main>
+</body>
+</html>
